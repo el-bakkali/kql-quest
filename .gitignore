@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.vite/
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+coverage/
+*.tsbuildinfo
+
+# Azure Static Web Apps CLI temp artifact
+*-app.zip
+
+# local test screenshots
+.shot-*.png
+
+# raw reel recordings (the mp4 is kept)
+demo/.raw/

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="description" content="KQL Quest - learn Kusto Query Language by playing a 2D platformer." />
+    <meta name="theme-color" content="#070d1a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>KQL Quest</title>
+  </head>
+  <body>
+    <main id="game" aria-label="KQL Quest game canvas">
+      <p id="boot-note">Loading KQL Quest…</p>
+    </main>
+    <footer id="page-footer">
+      <span>KQL Quest — an internal proof of concept</span>
+      <a href="https://aka.ms/MustLearnKQL" target="_blank" rel="noopener noreferrer">Must Learn KQL series</a>
+    </footer>
+    <div id="rotate-hint" hidden>
+      <div class="rotate-card">
+        <div class="rotate-icon">&#8635;</div>
+        <h2>Turn your phone sideways</h2>
+        <p>KQL Quest is built for landscape. Rotate your device for the full view.</p>
+        <button type="button" id="rotate-dismiss">Play in portrait anyway</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
